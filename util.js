@@ -31,5 +31,5 @@ exports.checkAndGenerate = (name, age) => {
   if (!exports.validateInput(age, false, true)) {
     return;
   }
-  return this.generateText(name, age);
+  return exports.generateText(name, age);
 };

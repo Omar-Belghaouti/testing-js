@@ -12,5 +12,8 @@
   "license": "MIT",
   "dependencies": {
     "jest": "^27.5.1"
+  },
+  "devDependencies": {
+    "puppeteer": "^13.5.2"
   }
 }
